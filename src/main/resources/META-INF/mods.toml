@@ -1,0 +1,24 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+
+# A list of mods - how many allowed here is determined by the individual mod loader
+[[mods]] #mandatory
+
+modId="bearly" #mandatory
+version="0.1.1" #mandatory
+displayName="Bearly" #mandatory
+logoFile="logo.png" #optional
+credits="No credits" #optional
+authors="ToxSylph" #optional
+description='''
+No description.
+'''
+
+[[dependencies.bearly]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+    
